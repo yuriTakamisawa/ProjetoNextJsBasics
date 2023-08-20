@@ -6,7 +6,7 @@ const Footer = () => {
 
 
   return (
-    <div className={styles.contact}>
+    <div className={styles.container}>
 
     <div>2023 Lamamia. All Rights Reserved.</div>
     <div></div>
