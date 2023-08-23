@@ -23,7 +23,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Hero from 'public/hero.png'
-// import Button from "@/components/Button/Button"
+import Button from "@/components/Button/Button"
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
           global tech industry.
           </p>
 
-        <button className={styles.button}>See Our Works</button>
+          <Button url="./portfolio/page.jsx" text="See Our Works" />
         </div>
         <div className="imgContainer">
         <Image className={styles.img} src={Hero}  alt='banner home'/>
